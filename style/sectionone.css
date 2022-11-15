@@ -1,0 +1,103 @@
+.sectionOne {
+ 
+  padding: 120px 0px 160px;
+  background: url(../assets/Ellips.svg) no-repeat center bottom;
+  background-size: 1200px;
+  background-color: rgb(70, 67, 67);
+}
+.sectionOne-skills {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 300px;
+
+  flex-wrap: wrap;
+}
+.sectionOne-skills-box {
+  padding: 50px 60px;
+  background: #2a2a2a;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+  border-radius: 29px;
+  text-align: center;
+  margin: 30px;
+  width: 270px;
+}
+
+.sectionOne-skills-box img {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 40px;
+}
+
+.sectionOne-skills-box h3 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 29px;
+  color: #e4e4e4;
+}
+
+.aboutme {
+  padding: 63px;
+  width: 500px;
+  margin: 0 auto;
+  background: #2c2c2c;
+  border-radius: 14px;
+  position: relative;
+}
+.aboutme h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 54px;
+  color: #e4e4e4;
+  margin-top: -100px;
+  margin-bottom: 35px;
+}
+.aboutme p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.aboutme-card3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 330px;
+  
+  top: -100px;
+  left: -320px;
+  background: #2c2c2c;
+  border-radius: 14px;
+  padding: 25px;
+}
+.aboutme-card3 img {
+  width: 100%;
+}
+.aboutme-card1 {
+  position: absolute;
+  background: url(photo_2021-08-30_22-31-34.jpg);
+ 
+  width: 287px;
+  
+  right: -280px;
+  top: 20%;
+  padding: 25px;
+  background: #2c2c2c;
+  border-radius: 14px;
+}
+.aboutme-card1 img {
+  width: 100%;
+}
+.aboutme-card2{
+    position: absolute;
+    left: -300px;
+    bottom: -150px;
+    width: 307px;
+
+padding: 29px;
+background: #2C2C2C;
+border-radius: 14px;
+}
